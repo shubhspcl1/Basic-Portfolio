@@ -219,7 +219,7 @@ span1 {
   background-color: rgb(220, 220, 220);
   transform: scale(1.01);
 }
-#resume {
+resume {
   background-color: white;
   height: 600px;
   width: auto;
@@ -381,10 +381,4 @@ span {
 
 .skill_value div:hover {
   transform: scale(1.02);
-}
-
-.wk {
-  height: 650px;
-  width: auto;
-  background-color: rgb(196, 199, 199);
 }
