@@ -111,3 +111,280 @@ span1 {
   filter: hue-rotate(200deg) sepia(1000);
   ;
 }
+
+
+#about {
+  height: 700px;
+  width: auto;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+}
+
+.about_left {
+  height: 600px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.about_right {
+  height: 600px;
+  width: 70%;
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 150px;
+}
+
+.about_left img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.about_right p {
+  font-size: 30px;
+  color: white;
+  font-family: monospace;
+}
+
+.about_right p1 {
+  font-family: Arial;
+  font-size: 17px;
+  color: rgb(100, 100, 100);
+  text-align: left;
+  line-height: 180%;
+  word-spacing: 5px;
+}
+
+.bottom-about {
+  display: flex;
+}
+
+.about_right1 {
+  width: 50%;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.about_right2 {
+  width: 50%;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.about_right1 p {
+  font-family: monospace;
+  color: white;
+  font-size: 30px;
+}
+
+.about_right1 p1 {
+  font-family: Arial;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  text-align: left;
+  line-height: 180%;
+  word-spacing: 5px;
+}
+
+.btn {
+  display: flex;
+  height: 50px;
+  width: 240px;
+  padding: 5px;
+  background-color: rgb(60, 60, 60);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}
+
+.btn img {
+  height: 40px;
+  width: 40px;
+}
+
+.btn p {
+  font-size: 20px;
+  color: white;
+  font-family: Arial;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.btn:hover p {
+  color: rgb(60, 60, 60);
+}
+
+.btn:hover {
+  background-color: rgb(220, 220, 220);
+  transform: scale(1.01);
+}
+#resume {
+  background-color: white;
+  height: 600px;
+  width: auto;
+  display: flex;
+}
+
+.rnw_left {
+  height: 500px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.rnw_right {
+  display: block;
+  height: 500px;
+  width: 70%;
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+  line-height: 180%;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  margin-right: 70px;
+}
+
+.rnw_left p {
+  font-family: Arial;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(27, 204, 232);
+  height: 25px;
+  color: rgb(40, 40, 40);
+}
+
+.rnw_right div {
+  padding-bottom: 50px;
+}
+
+.rnw_right div p1 {
+  font-size: 25px;
+  color: rgb(40, 40, 40);
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.rnw_right div p2 {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+span {
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+  font-family: Arial;
+  padding-left: 20px;
+}
+
+.rnw_right div p3 {
+  font-family: Arial;
+  color: rgb(120, 120, 120);
+}
+
+#work {
+  background-color: white;
+  height: 600px;
+  width: auto;
+  display: flex;
+}
+
+.skills {
+  background-color: white;
+  width: auto;
+  display: flex;
+  border: none;
+  height: 1000px;
+}
+
+.skill_info {
+  height: 200px;
+  width: 100%;
+  font-family: Arial;
+  color: rgb(120, 120, 120);
+  border: none;
+}
+
+.skill_value {
+  height: 600px;
+  width: 100%;
+  border: none;
+}
+
+.skill_value p {
+  font-family: monospace;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  color: rgb(50, 50, 50);
+  font-size: 18px;
+}
+
+.skill_value div {
+  padding: 0;
+  margin: 0;
+  width: 600px;
+  background-color: rgb(140, 140, 140);
+  height: 40px;
+  display: flex;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.skill_value div div1 {
+  background-color: rgb(44, 44, 44);
+  width: 90%;
+  height: 40px;
+}
+
+.skill_value div div2 {
+  background-color: rgb(44, 44, 44);
+  width: 50%;
+  height: 40px;
+}
+
+.skill_value div div3 {
+  background-color: rgb(44, 44, 44);
+  width: 45%;
+  height: 40px;
+}
+
+.skill_value div div4 {
+  background-color: rgb(44, 44, 44);
+  width: 30%;
+  height: 40px;
+}
+
+.skill_value div div5 {
+  background-color: rgb(44, 44, 44);
+  width: 40%;
+  height: 40px;
+}
+
+.skill_value div div6 {
+  background-color: rgb(44, 44, 44);
+  width: 80%;
+  height: 40px;
+}
+
+.skill_value span {
+  transition: 500ms ease-in-out;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.skill_value:hover span {
+  color: rgb(27, 204, 232);
+}
+
+.skill_value div:hover {
+  transform: scale(1.02);
+}
+
+.wk {
+  height: 650px;
+  width: auto;
+  background-color: rgb(196, 199, 199);
+}
