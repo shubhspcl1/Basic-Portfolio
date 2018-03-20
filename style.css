@@ -112,7 +112,6 @@ span1 {
   ;
 }
 
-
 #about {
   height: 700px;
   width: auto;
@@ -219,7 +218,8 @@ span1 {
   background-color: rgb(220, 220, 220);
   transform: scale(1.01);
 }
-resume {
+
+#resume {
   background-color: white;
   height: 600px;
   width: auto;
@@ -381,4 +381,263 @@ span {
 
 .skill_value div:hover {
   transform: scale(1.02);
+}
+
+.wk {
+  height: 650px;
+  width: auto;
+  background-color: rgb(196, 199, 199);
+}
+
+.wk p {
+  text-align: center;
+  color: rgb(115, 115, 115);
+  font-size: 22px;
+  font-family: Arial;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.wk1, .wk2 {
+  display: flex;
+  justify-content: center;
+}
+
+.wk div a img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  transition: 400ms ease-in-out;
+}
+
+.wk div a img:hover {
+  transform: scale(1.05);
+}
+
+.dai {
+  background-image: url(images/testimonials-bg.jpg);
+  background-size: cover;
+  height: 400px;
+  width: auto;
+  background-position: 0 -150px;
+  background-attachment: fixed;
+}
+
+.dai p {
+  color: rgb(198, 198, 198);
+  font-size: 22px;
+  padding: 100px 200px 50px 200px;
+  line-height: 200%;
+  word-spacing: 150%;
+}
+
+.dai p1 {
+  padding-top: 30px;
+  color: rgb(198, 198, 198);
+  font-family: Arial;
+  font-size: 15px;
+  padding-left: 200px;
+}
+
+#contacts {
+  background-color: rgb(25, 25, 25);
+  height: 1100px;
+  width: auto;
+}
+
+.upperc {
+  display: flex;
+}
+
+.contacts_left {
+  width: 15%;
+  height: auto;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.contacts_left img {
+  height: 100px;
+  width: 100px;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.contacts_left img:hover {
+  filter: brightness(10);
+}
+
+.contacts_right {
+  width: 85%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.contacts_right p {
+  font-size: 18px;
+  font-family: Arial;
+  color: rgb(74, 74, 74);
+  line-height: 180%;
+  word-spacing: 150%;
+  text-align: left;
+  padding-right: 300px;
+}
+
+.lowerc {
+  display: flex;
+}
+
+.cr0 {
+  width: 20%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.cr1 {
+  width: 40%;
+  height: auto;
+}
+
+.input1 {
+  background-color: rgb(66, 66, 66);
+  font-size: 20px;
+  margin-top: 30px;
+  width: 80%;
+  border: none;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.input2 {
+  background-color: rgb(66, 66, 66);
+  font-size: 20px;
+  margin-top: 20px;
+  width: 80%;
+  border: none;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.input3 {
+  background-color: rgb(66, 66, 66);
+  font-size: 20px;
+  margin-top: 20px;
+  width: 80%;
+  border: none;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.input4 {
+  background-color: rgb(66, 66, 66);
+  font-size: 20px;
+  margin-top: 20px;
+  width: 80%;
+  border: none;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.cr2 {
+  padding-top: 20px;
+  width: 40%;
+  height: auto;
+}
+
+.cr2 p1 {
+  font-size: 20px;
+  color: white;
+  font-family: monospace;
+  padding-bottom: :40px;
+  padding-top: 30px;
+  font-weight: bolder;
+}
+
+.cr2 p {
+  text-align: left;
+  color: rgb(74, 74, 74);
+  padding-right: 200px;
+  line-height: 180%;
+  font-size: 20px;
+  word-spacing: 150%;
+  font-family: : Arial;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#submit {
+  color: white;
+  height: 50px;
+  width: 120px;
+  background-color: rgb(10, 10, 10);
+  font-size: 25px;
+  font-family: monospace;
+  border: none;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+  border-radius: 3px;
+}
+
+#submit:hover {
+  color: rgb(10, 10, 10);
+  background-color: white;
+  transform: scale(1.02);
+}
+
+.cr0 p {
+  font-size: 20px;
+  color: white;
+  font-family: monospace;
+  text-align: right;
+  margin-bottom: 80px;
+  padding-right: 100px;
+  font-weight: bolder;
+}
+
+.arrow {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  left: 50%;
+  bottom: 20px;
+  transition: 300ms ease-in-out;
+}
+
+.arrow:hover {
+  transform: scale(1.05);
+  transform: translateY(-20px);
+}
+
+.footer {
+  background-color: rgb(10, 10, 10);
+  height: 240px;
+  width: auto;
+  background-attachment: fixed;
+}
+
+.footer p span {
+  color: rgb(75, 75, 75);
+  padding-left: 5px;
+  margin-left: 0;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}
+
+.footer p {
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer .links {
+  padding: 80px 400px 0 400px;
+}
+
+.footer p span:hover {
+  color: rgb(231, 20, 70);
+}
+
+.wk div div img:hover {
+  filter: opacity(.2);
 }
